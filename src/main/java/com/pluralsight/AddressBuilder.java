@@ -38,7 +38,7 @@ public class AddressBuilder {
         shipAddress.append(shipCity).append(", ");
         shipAddress.append(shipState).append(" ").append(shipZip);
 
-        System.out.println(fullName + "\n");
+        System.out.println("\n" + fullName + "\n");
         System.out.println(billAddress);
         System.out.println("\n" + shipAddress);
 
